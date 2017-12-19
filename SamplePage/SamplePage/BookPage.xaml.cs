@@ -18,7 +18,7 @@ namespace SamplePage
         public BookPage()
         {
             InitializeComponent();
-            var query = UserModel.countUser(j);
+           /* var query = UserModel.countUser(j);
 
             var query2 = UserModel.selectUser();
             ObservableCollection<Book> items = new ObservableCollection<Book>();
@@ -26,11 +26,11 @@ namespace SamplePage
             //*をリストにぶち込んで個数分addするのでもいいのでは
             foreach(var user in query2)
             {
-                List1.Add(user.Name);
+                //List1.Add(user.Name);
             }
             for (var j = 0; j < query2.Count; j++)
             {                
-                items.Add(new Book { Name = List1[j], Value = 2.5 });
+                //items.Add(new Book { Name = List1[j], Value = 2.5 });
 
             }
 
@@ -46,7 +46,7 @@ namespace SamplePage
             /*foreach (var user in query2)
             {
                 List1[0] = user.Name;
-            }List1.Add = List1[0];*/
+            }List1.Add = List1[0];
 
 
 
@@ -121,7 +121,7 @@ namespace SamplePage
             }
 
             BookListView.ItemsSource = items;
-
+            */
         }
 
         private void Detail(object sender, EventArgs e)
